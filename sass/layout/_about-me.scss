@@ -1,0 +1,163 @@
+.about-me {
+  @include set-section-width;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  justify-items: center;
+  height: fit-content;
+  padding: $section-padding;
+  margin-bottom: $section-margin-bottom-small;
+
+  &__heading {
+    grid-column: 1 / -1;
+    place-self: center;
+    margin-bottom: $heading-margin-bottom;
+  }
+
+  &__img-wrapper {
+    position: relative;
+    z-index: -1;
+  }
+
+  &__img {
+    width: 25rem;
+    margin-bottom: $medium-margin-bottom;
+  }
+
+  &__text {
+    margin-bottom: $medium-margin-bottom;
+    line-height: 1.2;
+    z-index: 2;
+  }
+
+  &__buttons {
+    text-align: center;
+  }
+
+  &__read-more {
+    margin-bottom: $medium-margin-bottom;
+  }
+
+  &__see-cv {
+    margin-left: 2.4rem;
+  }
+
+  &__popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb($dark-color, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+
+    &-content {
+      position: relative;
+      place-self: center;
+      height: 80%;
+      // height: calc(100vh - 4.8rem * 2);
+      max-width: 100rem;
+      margin: $popup-margin-small;
+      padding: $popup-padding-small;
+      background-color: $white-color;
+      overflow-y: hidden;
+      z-index: 1;
+    }
+
+    &-close {
+      position: absolute;
+      top: 2%;
+      right: 2%;
+      font-size: 2.2rem;
+      color: $dark-color;
+
+      &:hover {
+        color: $main-orange-color;
+      }
+    }
+
+    &-heading {
+      margin-bottom: $heading-margin-bottom;
+    }
+
+    &-text {
+      height: 65%;
+      padding-right: 1.6rem;
+      overflow-y: scroll;
+    }
+    &-cv {
+      color: $main-orange-color;
+      font-weight: 600;
+    }
+
+    &-decoration {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      margin-bottom: 0rem;
+      z-index: -1;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .about-me {
+    margin-bottom: $section-margin-bottom;
+
+    &__see-cv {
+      margin-left: 2.4rem;
+    }
+
+    &__popup {
+      &-close {
+        font-size: 3.1rem;
+      }
+
+      // &-text {
+      // height: 70%;
+      // }
+
+      &-decoration {
+        margin-bottom: -4rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-me {
+    grid-template-columns: 40% 60%;
+
+    &__img {
+      margin-top: -15rem;
+      margin-bottom: 0;
+      width: 55rem;
+    }
+
+    &__buttons {
+      text-align: start;
+    }
+
+    &__see-cv {
+      margin-left: 3.2rem;
+    }
+
+    &__popup {
+      &-content {
+        // height: calc(100vh - 6.4rem * 2);
+        margin: $popup-margin-big;
+        padding: $popup-padding-big;
+      }
+
+      // &-text {
+      // height: 60%;
+      // }
+
+      &-decoration {
+        margin-bottom: -5rem;
+      }
+    }
+  }
+}

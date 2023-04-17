@@ -1,0 +1,83 @@
+.big-button-link {
+  &:link,
+  &:visited {
+    padding: 1.6rem 2.4rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    text-align: center;
+    color: $white-color;
+    background-color: $main-orange-color;
+  }
+
+  &:hover,
+  &:active {
+    background-color: $orange-color-darker;
+  }
+}
+
+@media (min-width: 1024px) {
+  .big-button-link {
+    &:link,
+    &:visited {
+      padding: 2.4rem 3.2rem;
+    }
+  }
+}
+
+.black-button-link {
+  &:link,
+  &:visited {
+    padding: 1.2rem 2.4rem;
+    font-size: 2rem;
+    background-color: $dark-color;
+    // background-color: rgb(42, 38, 38);
+    border-radius: 2rem;
+    color: $white-color;
+  }
+
+  &:hover,
+  &:active {
+    background-color: rgb($dark-color, 0.9);
+  }
+}
+@media (min-width: 768px) {
+  .black-button-link {
+    &:link,
+    &:visited {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+.orange-button {
+  padding: 1.2rem 2.4rem;
+  font-size: 2rem;
+  color: $white-color;
+  background-color: $main-orange-color;
+  border-radius: 2rem;
+
+  &:hover {
+    background-color: $orange-color-darker;
+  }
+}
+@media (min-width: 768px) {
+  .orange-button {
+    font-size: 2.2rem;
+  }
+}
+
+.transparent-button {
+  font-size: 2rem;
+  color: $main-orange-color;
+
+  &:hover {
+    color: $orange-color-darker;
+  }
+}
+
+@media (min-width: 768px) {
+  .transparent-button {
+    font-size: 2.2rem;
+  }
+}

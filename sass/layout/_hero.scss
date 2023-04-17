@@ -1,0 +1,132 @@
+.hero {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: $section-margin-bottom-small;
+  padding: $section-padding;
+  text-align: start;
+  color: $white-color;
+  background-color: $dark-color;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+
+  &__wrapper {
+    position: relative;
+    @include set-section-width;
+    margin-top: -5rem;
+  }
+
+  &__heading-primary {
+    margin-bottom: 1.6rem;
+    animation: slideFromLeft1 3s;
+  }
+
+  &__text {
+    margin-bottom: $medium-margin-bottom;
+    line-height: 1.2;
+    color: $white-color-50;
+    animation: slideFromLeft2 3s;
+  }
+
+  &__button {
+    display: block;
+    margin-top: 1.6rem;
+    animation: slideUp 3s;
+  }
+
+  &__decoration {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+
+    &-icon {
+      position: absolute;
+      font-size: 5rem;
+      color: rgba($main-orange-color, 0.4);
+
+      animation: grove 3s;
+
+      &-1 {
+        top: 20%;
+        right: 50%;
+      }
+      &-2 {
+        top: 80%;
+        right: 30%;
+      }
+      &-3 {
+        top: 10%;
+        right: 10%;
+      }
+      &-4 {
+        top: 85%;
+        right: 70%;
+      }
+      &-5 {
+        top: 70%;
+        right: 55%;
+      }
+      &-6 {
+        top: 30%;
+        right: 10%;
+      }
+      &-7 {
+        top: 15%;
+        right: 80%;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    justify-content: start;
+    text-align: start;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    margin-bottom: $section-margin-bottom;
+
+    &__text {
+      width: 70%;
+      font-size: $font-size-body;
+    }
+
+    &__button {
+      display: inline-block;
+      margin-top: 0;
+      margin-right: 3.2rem;
+    }
+
+    &__decoration {
+      width: 40%;
+
+      &-icon {
+        &-1 {
+          top: 50%;
+        }
+        &-2 {
+          top: 60%;
+        }
+        &-3 {
+          top: 70%;
+        }
+        &-4 {
+          top: 55%;
+        }
+        &-5 {
+          top: 70%;
+        }
+        &-6 {
+          top: 40%;
+        }
+        &-7 {
+          top: 35%;
+          right: 40%;
+        }
+      }
+    }
+  }
+}

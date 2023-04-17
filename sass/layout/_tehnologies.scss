@@ -1,0 +1,65 @@
+.tehnologies {
+  position: relative;
+  height: fit-content;
+  margin-bottom: $section-margin-bottom-small;
+  padding: $section-padding;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $heading-margin-bottom;
+
+  &__wrapper {
+    @include set-section-width;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: $medium-margin-bottom;
+  }
+  &__item {
+    display: flex;
+    gap: 0.8rem;
+    font-size: $font-size-body;
+    height: min-content;
+  }
+  &__icon {
+    color: $dark-color;
+    width: $font-size-body;
+    height: $font-size-body;
+  }
+
+  &__decoration-line-top {
+    position: absolute;
+    top: -5%;
+    width: 200%;
+    display: inline;
+    rotate: -5deg;
+    border: 0.15rem solid $main-orange-color;
+  }
+  &__decoration-line-bottom {
+    position: absolute;
+    bottom: -5%;
+    width: 200%;
+    display: inline;
+    rotate: -5deg;
+    border: 0.15rem solid $main-orange-color;
+  }
+}
+.tehnologies__item:hover .tehnologies__icon,
+.tehnologies__item:hover .tehnologies__name {
+  color: $main-orange-color;
+}
+
+@media (min-width: 768px) {
+  .tehnologies {
+    margin-bottom: $section-margin-bottom;
+    &__item {
+      font-size: $font-size-biger-2;
+    }
+
+    &__icon {
+      width: $font-size-biger-2;
+      height: $font-size-biger-2;
+    }
+  }
+}

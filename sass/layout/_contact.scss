@@ -1,0 +1,72 @@
+.contact {
+  position: relative;
+  padding: $section-padding;
+
+  &__heading {
+    margin-bottom: $heading-margin-bottom;
+  }
+  &__wrapper {
+    @include set-section-width;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  &__text {
+    width: 100%;
+    line-height: 1.2;
+  }
+
+  &__span {
+    font-size: 1.8rem;
+  }
+
+  &__form {
+    width: 100%;
+    margin-bottom: $medium-margin-bottom;
+    z-index: 2;
+
+    &-text {
+      padding-top: 1.6rem;
+      grid-column: 1/3;
+      width: 100%;
+      font-size: $font-size-small-3;
+      color: $white-color-50;
+    }
+  }
+
+  &__decoration {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact {
+    &__wrapper {
+      flex-direction: row;
+      gap: 6.4rem;
+    }
+
+    &__text {
+      width: 60%;
+    }
+
+    &__span {
+      font-size: 2.6rem;
+    }
+    &__form {
+      width: 40%;
+
+      &-text {
+        font-size: $font-size-small-2;
+      }
+    }
+
+    // &__decoration {
+    //   position: absolute;
+    //   bottom: 0;
+    //   left: 0;
+    // }
+  }
+}
