@@ -28,6 +28,23 @@ let cardsCount;
 
 //projects data
 const projectData = [
+  // {
+  // name: 'name',
+  // technologiesName: ['Html5', 'Css3', 'Scss', 'JavaScript'],
+  // img: 'Project-1-img.png',
+  // description:,
+  // git:,
+  // exploreLink:,
+  // },
+  {
+    name: 'Modern homes website',
+    technologiesName: ['Html5', 'Css3', 'Scss', 'JavaScript', 'Figma'],
+    img: 'Project-0-img.png',
+    description:
+      'This project was built using HTML with the SASS extension of CSS, and a little bit of JavaScript, based on the <a href=https://www.figma.com/file/zjHt1CwKAbCWWif5eyeDAv/Challenge-%231?node-id=6-22&t=aca77VaNxsRAFNOZ-0 class="white-text">Figma file</a>. The Figma file was provided as a challenge by a programming school "Project Classroom". In this project, I showcased my skills in creating a simple webpage based on a Figma design.',
+    git: 'https://github.com/Sanja-Misic/Modern-homes-website',
+    exploreLink: 'https://sanja-misic.github.io/Modern-homes-website/',
+  },
   {
     name: 'Dice game',
     technologiesName: ['Html5', 'Css3', 'Scss', 'JavaScript'],
