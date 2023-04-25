@@ -209,3 +209,29 @@ arrLeft.addEventListener('click', function () {
     arrLeft.style.display = 'none';
   }
 });
+
+//// BACK TO TOP BTN
+const orangeColorDarker = '#c03b0b';
+const whiteColor = '#fff9f6';
+
+const calcScrollValue = () => {
+  const scrollProgress = document.querySelector('.progress');
+  const position = document.documentElement.scrollTop;
+
+  const calcHeight =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+
+  const scrollValue = Math.round((position * 100) / calcHeight);
+
+  if (position > 100) {
+    scrollProgress.classList.add('progress-show');
+  } else {
+    scrollProgress.classList.remove('progress-show');
+  }
+
+  scrollProgress.style.background = `conic-gradient(${orangeColorDarker} ${scrollValue}%, ${whiteColor} ${scrollValue}%)`;
+};
+
+window.onscroll = calcScrollValue;
+window.onload = calcScrollValue;

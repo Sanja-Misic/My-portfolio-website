@@ -1011,4 +1011,34 @@ body {
   .transparent-button {
     font-size: 2.2rem;
   }
+}
+.progress {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  height: 4.4rem;
+  width: 4.4rem;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.8rem #000;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.progress-show {
+  display: grid;
+}
+
+.progress-value {
+  box-sizing: border-box;
+  height: calc(100% - 0.6rem);
+  width: calc(100% - 0.6rem);
+  display: grid;
+  place-items: center;
+  color: #fff9f6;
+  font-size: 2.4rem;
+  text-decoration: none;
+  background-color: #1f1d1c;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
