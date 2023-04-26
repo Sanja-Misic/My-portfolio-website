@@ -235,3 +235,12 @@ const calcScrollValue = () => {
 
 window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
+
+//// LANGUAGES
+const selectLanguages = document.querySelectorAll('.header__language-select');
+
+selectLanguages.forEach(el => {
+  el.onchange = function () {
+    location = this.value;
+  };
+});
