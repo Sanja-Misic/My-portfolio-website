@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Accomodation-Lira Excellent",
+    "technologiesName": ["Html5", "Css3", "Scss", "JavaScript", "API"],
+    "img": "Project-0-img.png",
+    "imgCard": "./img/projects-imgs/img0.png",
+    "description": "This project represents a accommodation website tailored to the requirements of my client. I take pride in every detail of this project. I am responsible for both the design and its implementation in code. This website encompasses a range of pages that enable intuitive navigation and provide all necessary information to guests. I integrated an API to display weather forecasts. The site is available in two languages, Serbian and English. It is responsive across all devices. I utilized the SASS preprocessor to efficiently organize styles and streamline the code maintenance process.",
+    "descriptionSrb": "Ovaj projekat predstavlja web stranicu za prenoćište prilagođenu zahte­vima mog klijenta. Ponosim se svakim detaljem ovog projekta. Odgovorna sam kako za dizajn, tako i za njegovu implementaciju. Ova web stranica obuhvata niz stranica koje omogućavaju intuitivnu navigaciju i pružaju sve neophodne informacije gostima. Implemetiran je API za prikaz vremenske prognoze. Sajt je dostupan na srpskom i engleskom jeziku. Prilagođen je za sve uređaje. Koristila sam SASS predprocesor kako bih efikasno organizovala stilove i olakšala održavanje koda.",
+    "descriptionCard": "This project represents a accommodation website tailored to the requirements of my client. I am responsible for both the design and its implementation in code.",
+    "git": "https://github.com/Sanja-Misic/Lira-Excellent-demo",
+    "exploreLink": "https://www.liraexcellent.com/"
+  },
+  {
+    "name": "Github user search app",
+    "technologiesName": ["Html5", "Css3", "Scss", "JavaScript", "API", "Figma"],
+    "img": "Project-1-img.png",
+    "imgCard": "./img/projects-imgs/img1.png",
+    "description": "This project represents a solution for a challenge on the <a href='https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6' class=\"white-text\"> Frontend Mentor platform </a>. This application involves the process of retrieving user data from GitHub via an API and displaying it based on user input in the search bar. In cases where the entered data does not match any user, a message appears indicating that there are no matching results. The ability to switch between light and dark themes is provided, and the site is responsive to different screen sizes, including mobile phones, tablets, and computers. The design has been implemented faithfully, following the Figma file down to the last pixel.",
+    "descriptionSrb": "Ovaj projekat predstavlja rešenje za izazov na <a href='https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6' class='white-text'> Frontend Mentor platformi </a>. Ova aplikacija uključuje proces dobijanja podataka korisnika sa GitHub-a putem API-ja i prikazivanje istih na osnovu unosa korisnika u pretragu. U slučajevima kada uneti podaci ne odgovaraju nijednom korisniku, pojavljuje se poruka koja ukazuje da nema podudarajućih rezultata. Omogućena je mogućnost prebacivanja između svetlog i tamnog režima, a sajt je prilagodljiv različitim veličinama ekrana, uključujući mobilne telefone, tablete i računare. Dizajn implementiran sledeći Figma fajl do poslednjeg piksela.",
+    "descriptionCard": "This project represents a solution for a challenge on the Frontend Mentor platform. The design has been implemented faithfully, following the Figma file.",
+    "git": "https://github.com/Sanja-Misic/GitHub-user-search-app",
+    "exploreLink": "https://sanja-misic.github.io/GitHub-user-search-app"
+  },
+  {
+    "name": "Dice game",
+    "technologiesName": ["Html5", "Css3", "Scss", "JavaScript"],
+    "img": "Project-2-img.png",
+    "imgCard": "./img/projects-imgs/img2.png",
+    "description": "Dice game is a simple game where two players roll the dice one after another trying to accumulate their current score  and save it before rolling a one. If a player roles a one they lose their current score. The winner is first player who reach 100 points.  Creating this project, I practiced my skills to implement JavaScript logic. Also, I practiced using timer in JavaScript and some DOM manipulation like input player names, display random rolling number on dice, display current score and saved score on screen, display winner etc. ",
+    "descriptionSrb": "Dice Game je jednostavna igra u kojoj dva igrača bacaju kockicu jedan za drugim pokušavajući akumulirati trenutni rezultat i sačuvati ga pre nego što bace jedinicu. Ako igrač baci jedinicu, gubi trenutni rezultat. Pobednik je prvi igrač koji dostigne 100 poena. Kreirajući ovaj projekat, vežbala sam svoje veštine u implementaciji JavaScript logike. Takođe, vežbala sam upotrebu tajmera u JavaScript-u i manipulaciju DOM-om kao što je unos imena igrača, prikazivanje slučajno dobijenog broja na kockici, prikazivanje trenutnog rezultata i sačuvanog rezultata na ekranu, prikazivanje pobednika itd.",
+    "descriptionCard": "Dice game is a JavaScript-based project showcasing the ability to develop a simple game. Features include dice rolling, score tracking, winner announcement...",
+    "git": "https://github.com/Sanja-Misic/Dice-game",
+    "exploreLink": "https://sanja-misic.github.io/Dice-game/"
+  },
+  {
+    "name": "Nice site",
+    "technologiesName": ["Html5", "Css3", "Scss", "JavaScript"],
+    "img": "Project-3-img.png",
+    "imgCard": "./img/projects-imgs/img3.png",
+    "description": "For my Nice site project, I challenged myself to recreate a website <a href=https://nicepage.com/html-templates/preview/web-design-and-development-company-2184402?device=desktop class=\"white-text\">template</a> from scratch using HTML, CSS, SASS, and JavaScript. I utilized SASS to make my CSS more organized and efficient, and I practiced using JavaScript to create interactive animations. Specifically, I focused on using Intersection Observer, which allowed me to trigger certain animations when an element entered the viewport.",
+    "descriptionSrb": "Moj projekat Nice site predstavlja rekreiranje web sajt <a href=https://nicepage.com/html-templates/preview/web-design-and-development-company-2184402?device=desktop class='white-text'>šablona</a> koristeći HTML, CSS, SASS i JavaScript. Upotrebilz sam SASS kako bih organizovao i efikasnije napisala CSS, i vežbala sam korišćenje JavaScript-a za kreiranje interaktivnih animacija. Posebno sam se fokusirao na upotrebu Intersection Observer-a, što mi je omogućilo da pokrenem određene animacije kada element uđe u vidno polje.",
+    "descriptionCard": "This project was recreating a website template. I practiced creating animations and using Intersection Observer.",
+    "git": "https://github.com/Sanja-Misic/nice-page-website-practise",
+    "exploreLink": "https://sanja-misic.github.io/nice-page-website-practise/"
+  },
+  {
+    "name": "Bookstore",
+    "technologiesName": ["Html5", "Css3", "Scss", "JavaScript"],
+    "img": "Project-4-img.png",
+    "imgCard": "./img/projects-imgs/img4.png",
+    "description": "The Bookstore application is designed to read data from a JSON file that serves as a database for all the books. The home page displays the best-rated books and most reviewed books by random genres. On another page, users can view all the available genres and click on a genre to see all the books in that category. Clicking on a book will open up its details. The application also features a search option, and includes a checkbox that enables users to view books for adults if they are over 18 years old. This project helped me enhance my skills in front-end development, JavaScript, and JSON data manipulation.",
+    "descriptionSrb": "Bookstore aplikacija je dizajnirana da čita podatke iz JSON datoteke koja služi kao baza podataka za sve knjige. Početna stranica prikazuje najbolje ocenjene knjige i najčešće recenzirane knjige slučajno izabranih žanrova. Na drugoj stranici, korisnici mogu pregledati sve dostupne žanrove i kliknuti na žanr kako bi videli sve knjige u toj kategoriji. Klikom na knjigu se otvaraju njeni detalji. Aplikacija takođe ima opciju pretrage i uključuje opciju za označavanje koja omogućava korisnicima da vide knjige za odrasle ako su stariji od 18 godina. Ovaj projekat mi je pomogao da unapredim svoje veštine u front-end development-u, JavaScript-u i manipulaciji JSON podacima.",
+    "descriptionCard": "Bookstore project showcasing skills in JSON data manipulation. Features include book browsing by genre, search function, and age verification for adult content etc.",
+    "git": "https://github.com/Sanja-Misic/Bookstore-practice",
+    "exploreLink": "https://sanja-misic.github.io/Bookstore-practice/"
+  }
+]
